@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { login } from "../features/authSlice";
+import logo from '../assets/Horselogo.png';
+
+<img className="logo" src={logo} alt="logo" />
+
 
 const Login = () => {
   const [form, setform] = useState({ email: "", password: "" });
@@ -24,7 +28,8 @@ const Login = () => {
     <div className="container">
         
       <div className="card" style={{ padding: "20px" }}>
-        <img className="logo" src="/public/Horselogo.png" alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
+
         <h1 className="title">PEGASUS</h1>
         <h4 className="logistics">Logistics Group</h4>
         <h5 className="subtitle">

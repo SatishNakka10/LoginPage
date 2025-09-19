@@ -4,6 +4,7 @@ import { register } from "../features/authSlice";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import logo from '../assets/Horselogo.png';
 
 const Register = () => {
   const [form, setForm] = useState({
@@ -42,7 +43,7 @@ const Register = () => {
             <h1>REGISTRATION</h1>
           </span>
           <div>
-            <img className="logo1" src="/public/Horselogo.png" alt="logo" />
+              <img className="logo1" src={logo} alt="logo" />
             <h1 className="title1">PEGASUS</h1>
             <h4 className="logistics1">Logistics Group</h4>
           </div>
