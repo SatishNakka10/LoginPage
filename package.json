@@ -1,19 +1,19 @@
 {
-  "homepage": "https://SatishNakka10.github.io/LoginPage", 
+  "homepage": "https://SatishNakka10.github.io/LoginPage",
   "name": "loginpage",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
+    "antd": "^5.27.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-redux": "^9.2.0",
